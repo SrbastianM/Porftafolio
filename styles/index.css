@@ -41,7 +41,7 @@ body {
     margin-left: 50px;
 }
 
-#main {
+#red-social-icons {
     transition: margin-left .5s;
     padding: 16px;
     display: flex;
@@ -49,59 +49,61 @@ body {
     justify-content: space-between;
 }
 
-#main>span {
+#red-social-icons>span {
     font-family: 'Roboto', sans-serif;
     padding: 14px;
     align-items: center;
     color: white;
 }
 
-#main span:hover {
+#red-social-icons span:hover {
     color: #7c7a7a;
 }
 
-#main>.social-icons{
+#red-social-icons>.social-icons{
     display: inherit;
 }
 
-#main>.social-icons>h2 {
+#red-social-icons>.social-icons>h2 {
     color: white;
     justify-content: space-between;
     padding: 14px;
 }
 
-#main>.social-icons ul {
+#red-social-icons>.social-icons ul {
     display: inline-flex;
     list-style: none;
 }
 
-#main .social-icons ul > li {
+#red-social-icons .social-icons ul > li {
     margin-inline: 24px;
 }
 
-#curve-wave::before {
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
+#title-section {
+    display: flex;
+}
+.short-inf {
+    display: inherit;
+    margin: 0;
     height: 100%;
-    background-color: #7c7a7a;
-    transform: translate(85%, 50%);
+}
+#title-section img {
+    display: block;
+    margin: auto;
+    position: fixed;
+
     z-index: -1;
+    margin-left: 25%;
+    height: 80%;
+    border-radius: 150%;
+    opacity: 0.5;
 }
 
-#curve-wave::after {
-    content: '';
+#title-section h1 {
     display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 60%;
-    height: 100%;
-    background-color: #7c7a7a;
-    transform: translate(-4%, 50%);
-    z-index: -1;
+    margin-left: 25%;
 
+    color: white;
 }
 
 @media screen and (max-height: 450px) {
