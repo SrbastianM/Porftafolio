@@ -1,7 +1,9 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
-    background-color: #1C1C65;
+    background-color: #5e8f9b;
     margin: 0px;
     padding: 0;
     overflow: hidden;
@@ -14,7 +16,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #2954A3;
+    background-color: 	rgb(142, 185, 185);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -30,7 +32,7 @@ body {
 }
 
 .sidenav a:hover {
-    color: #646464;
+    color: rgb(222, 220, 252);
 }
 
 .sidenav .closebtn {
@@ -57,7 +59,7 @@ body {
 }
 
 #red-social-icons span:hover {
-    color: #7c7a7a;
+    color: rgb(222, 220, 252);
 }
 
 #red-social-icons>.social-icons{
@@ -79,56 +81,7 @@ body {
     margin-inline: 24px;
 }
 
-#title-section {
-    display: flex;
-}
 
-.short-inf {
-    display: inherit;
-    margin: 0;
-}
-
-#title-section img {
-    display: block;
-    margin: auto;
-    position: fixed;
-
-    z-index: -1;
-    margin-left: 12%;
-    margin-top: 24px;
-    height: 75%;
-    border-radius: 150%;
-    opacity: 0.5;
-}
-
-#title-section h1 {
-    display: block;
-    position: fixed;
-
-    margin-left: 25%;
-    margin-top: 10%;
-
-    font-size: 44px;
-    letter-spacing: 2px;
-    color: white;
-}
-
-#title-section h1:first-letter {
-    font-size: 300%;
-    color: white;
-}
-
-#title-section p {
-    display: block;
-    position: fixed;
-
-    margin-left: 42%;
-    margin-top: 21%;
-
-    font-size: 30px;
-    letter-spacing: 2px;
-    color: rgb(222, 220, 252);
-}
 
 @media screen and (max-height: 450px) {
     .sidenav {
