@@ -82,28 +82,52 @@ body {
 #title-section {
     display: flex;
 }
+
 .short-inf {
     display: inherit;
     margin: 0;
-    height: 100%;
 }
+
 #title-section img {
     display: block;
     margin: auto;
     position: fixed;
 
     z-index: -1;
-    margin-left: 25%;
-    height: 80%;
+    margin-left: 12%;
+    margin-top: 24px;
+    height: 75%;
     border-radius: 150%;
     opacity: 0.5;
 }
 
 #title-section h1 {
     display: block;
-    margin-left: 25%;
+    position: fixed;
 
+    margin-left: 25%;
+    margin-top: 10%;
+
+    font-size: 44px;
+    letter-spacing: 2px;
     color: white;
+}
+
+#title-section h1:first-letter {
+    font-size: 300%;
+    color: white;
+}
+
+#title-section p {
+    display: block;
+    position: fixed;
+
+    margin-left: 42%;
+    margin-top: 21%;
+
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(222, 220, 252);
 }
 
 @media screen and (max-height: 450px) {
