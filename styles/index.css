@@ -128,8 +128,23 @@ body {
     #subtitle-text {
         margin-top: 2rem;
     }
+
+    #experience-section {
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 50%;
+    }
+
+    #experience-section #container-first-experience {
+        margin-bottom: 0;
+    }
+    #experience-section #container-second-experience {
+        margin-bottom: 0;
+    }
+
     #contact-section {
         margin-top: 4rem;
+        margin-bottom: 1rem;
         width: 100%;
         height: 80vh;
     }
