@@ -109,6 +109,7 @@ body {
     margin-left: 12%;
     z-index: 1;
 }
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
