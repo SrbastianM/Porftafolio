@@ -80,35 +80,21 @@ body {
 #red-social-icons .social-icons ul > li {
     margin-inline: 24px;
 }
-.section .container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 40.5vh;
-    /* margin: 0; */
+
+#title-section-id {
+    margin: 2rem;
 }
 
-.section .container #image-presentation {
-    position: relative; 
-    margin-top: -4%;
-    height: 286px;
-    width: 700px;
-}
-.section .container #title-text {
-    position: absolute;
-    margin-top: 5%;
-    margin-left: -15%;
-    z-index: 1;
-}
 .section .container #title-text::first-letter {
     font-size: 3rem;
-}
-.section .container #subtitle-text {
+} 
+
+/* .section .container #subtitle-text {
     position: absolute;
     margin-top: 15%;
     margin-left: 12%;
     z-index: 1;
-}
+} */
 
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -117,5 +103,34 @@ body {
 
     .sidenav a {
         font-size: 18px;
+    }
+    #red-social-icons {
+        /* transition: margin-left .5s; */
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    #title-section-id {
+        margin-left: 0;
+        margin-bottom: 20%;
+        width: 100%;
+        height: 80vh;
+    }
+
+    #title-text {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    #subtitle-text {
+        margin-top: 2rem;
+    }
+    #contact-section {
+        margin-top: 4rem;
+        width: 100%;
+        height: 80vh;
     }
 }
