@@ -18,14 +18,14 @@
     <section>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Home</a>
+            <a href="javascript:void(0)" class="homeSection" onclick="moveToHomeSection()">Home</a>
             <a href="#">About Me</a>
             <a href="#">Experience</a>
-            <a href="#">Contact</a>
+            <a href="javascript:void(0)" class="contactSection" onclick="moveToContactSection()">Contact</a>
         </div>
 
         <div id="red-social-icons">
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <span id="multiple-selection" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
             <div class="social-icons">
                 <ul>
                     <li>
@@ -53,7 +53,7 @@
         <div>
         </div>
     </section>
-    <section class="section is-medium">
+    <section id="about-me-section" class="section is-medium">
         <div class="container is-max-desktop">
             <div class="tile is-4-fullhd is-vertical is-parent">
                 <div class="tile is-child">
