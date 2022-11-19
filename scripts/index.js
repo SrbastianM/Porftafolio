@@ -15,6 +15,15 @@ function closeNav() {
 function moveToHomeSection() {
   window.scrollTo(0, 0);
 }
+
+function moveToAboutMeSection() {
+  window.scrollTo(0, 500);
+}
+
+function moveToExperienceSection() {
+  window.scrollTo(0, 1230);
+}
+
 function moveToContactSection() {
   window.scrollTo(0, 2500);
 }
