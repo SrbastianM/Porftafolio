@@ -2,7 +2,7 @@
 
 body {
     font-family: "Lato", sans-serif;
-    transition: background-color .5s;
+    transition:  .5s;
     background-color: #5e8f9b;
     margin: 0px;
     padding: 0;
@@ -10,9 +10,9 @@ body {
 }
 
 .sidenav {
+    position: fixed;
     height: 100%;
     width: 0;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -44,13 +44,15 @@ body {
 }
 
 #red-social-icons {
-    transition: margin-left .5s;
+    transition: .5s;
     padding: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+#multiple-selection {
+    position: fixed;
+}
 #red-social-icons>span {
     font-family: 'Roboto', sans-serif;
     padding: 14px;
@@ -64,6 +66,9 @@ body {
 
 #red-social-icons>.social-icons{
     display: inherit;
+    margin-top: 1%;
+    width: 100%;
+    justify-content: end;
 }
 
 #red-social-icons>.social-icons>h2 {
@@ -88,13 +93,10 @@ body {
 .section .container #title-text::first-letter {
     font-size: 3rem;
 } 
-
-/* .section .container #subtitle-text {
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 12%;
-    z-index: 1;
-} */
+#experience-section {
+    margin-left: 10%;
+    width: 100%;
+}
 
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -105,21 +107,44 @@ body {
         font-size: 18px;
     }
     #red-social-icons {
-        /* transition: margin-left .5s; */
         padding: 8px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+
+
     
 }
 @media screen and (max-width: 650px) {
+    #multiple-selection {
+        position: fixed;
+        margin-left: -4%;
+    }
+
+    #red-social-icons .social-icons ul > li {
+        margin-inline: 14px;
+    }
+
+    #red-social-icons>  .social-icons{
+        margin-top: 2%;
+        margin-left: 50%;
+        justify-content: end;
+    }
     #title-section-id {
-        margin-left: 0;
+        margin-left: 5%;
         margin-top: 20%;
         margin-bottom: 20%;
+        margin-right: 8%;
         width: 100%;
         height: 80vh;
+    }
+    #about-me-section {
+        margin-left: 5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        margin-right: 8%;
+        align-items: center;
     }
 
     #title-text {
@@ -133,6 +158,10 @@ body {
     #experience-section {
         width: 100%;
         height: 100vh;
+        margin-left: 5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        margin-right: 8%;
         margin-bottom: 150vh;
     }
 
@@ -145,8 +174,10 @@ body {
     }
 
     #contact-section {
-        margin-top: 30%;
-        margin-bottom: 1rem;
+        margin-left: 5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        margin-right: 8%;
         width: 100%;
         height: 80vh;
     }
