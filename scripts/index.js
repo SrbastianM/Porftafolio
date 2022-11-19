@@ -11,3 +11,10 @@ function closeNav() {
   document.getElementById("main").style.visibility = "visible";
   document.body.style.backgroundColor = "#2F2F8A";
 }
+
+function moveToHomeSection() {
+  window.scrollTo(0, 0);
+}
+function moveToContactSection() {
+  window.scrollTo(0, 2500);
+}
